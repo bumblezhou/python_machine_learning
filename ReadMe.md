@@ -10,6 +10,7 @@
     https://coding-robin.de/2013/07/22/train-your-own-opencv-haar-classifier.html
 ## 5. Face recognition with python
     https://realpython.com/face-recognition-with-python/
+    https://realpython.com/face-detection-in-python-using-a-webcam/
     https://github.com/shantnu/FaceDetect
 ## 6. Install opencv
     https://opencv.org/releases/
