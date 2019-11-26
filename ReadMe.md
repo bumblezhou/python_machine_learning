@@ -28,3 +28,9 @@
     https://github.com/jimmyleaf/ocr_tensorflow_cnn
 ## 9. The state of machine learning 2019
     https://github.blog/2019-01-24-the-state-of-the-octoverse-machine-learning/
+## 10. Install opencv on windows
+    1). Download opencv from: https://opencv.org/releases/
+    2). Double click opencv-4.1.2-vc14_vc15.exe to extract it.
+    3). cmd -> cd ./opencv/build/ & setup_vars_opencv4.cmd
+    4). Copy ./opencv/build/python/cv2/python-3.7/cv2.cp37-win_amd64.pyd To C:\Users\<CurrentUser>\AppData\Local\Programs\Python\Python37\Lib\site-packages
+    5). cmd -> python -> import cv2 as cv Enter -> print(cv.__version__)
