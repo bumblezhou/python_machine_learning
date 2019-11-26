@@ -21,3 +21,5 @@
     https://www.cnblogs.com/qiandu/p/10280670.html
 ## 8. TensorFlow and ocr
     https://github.com/jimmyleaf/ocr_tensorflow_cnn
+## 9. The state of machine learning 2019
+    https://github.blog/2019-01-24-the-state-of-the-octoverse-machine-learning/
