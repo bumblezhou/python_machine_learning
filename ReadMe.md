@@ -16,11 +16,13 @@
 ## 6. Install opencv
     https://opencv.org/releases/
     https://github.com/opencv/opencv/releases
-## 7. ID text recognition
+## 7. ID Cards text recognition
     https://blog.csdn.net/baidu_33473810/article/details/85320365
     https://www.cnblogs.com/qiandu/p/10280670.html
     https://github.com/still-wait/deepLearning_OCR
     https://github.com/tianzhi0549/CTPN
+    https://www.cnblogs.com/ygh1229/p/7224940.html
+    https://www.cnblogs.com/ygh1229/p/7227660.html
 ## 8. TensorFlow and ocr
     https://github.com/jimmyleaf/ocr_tensorflow_cnn
 ## 9. The state of machine learning 2019
