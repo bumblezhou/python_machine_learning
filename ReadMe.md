@@ -13,6 +13,7 @@
     https://realpython.com/face-recognition-with-python/
     https://realpython.com/face-detection-in-python-using-a-webcam/
     https://github.com/shantnu/FaceDetect
+    https://pysource.com/2019/03/15/how-to-install-python-3-and-opencv-4-on-windows/
 ## 6. Install opencv
     https://opencv.org/releases/
     https://github.com/opencv/opencv/releases
