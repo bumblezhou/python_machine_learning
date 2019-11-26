@@ -3,8 +3,9 @@
     https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 ## 2. Real python machine learning
     https://realpython.com/tutorials/machine-learning/
-## 3. Iris dataset
+## 3. Dataset
     https://archive.ics.uci.edu/ml/datasets/Iris
+    https://github.com/jbrownlee/Datasets
 ## 4. Train your own opencv classifier
     https://coding-robin.de/2013/07/22/train-your-own-opencv-haar-classifier.html
 ## 5. Face recognition with python
