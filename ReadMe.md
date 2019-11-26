@@ -1,5 +1,6 @@
 # Python Machine Learning
 ## 1. Step by step
+    https://machinelearningmastery.com/start-here/#python
     https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 ## 2. Real python machine learning
     https://realpython.com/tutorials/machine-learning/
