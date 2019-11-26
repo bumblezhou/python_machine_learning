@@ -4,6 +4,8 @@ import cv2
 
 def main():
     # Usage: python face_detect.py shutterstock_faces.jpg haarcascade_frontalface_default.xml
+    # Usage: python face_detect.py cats.jpg haarcascade_frontalcatface.xml
+    # Usage: python face_detect.py cats1.jpg haarcascade_frontalcatface_extended.xml
     if len(sys.argv) <= 2:
         print("Usage: python face_detect.py shutterstock_faces.jpg haarcascade_frontalface_default.xml")
         return 0
