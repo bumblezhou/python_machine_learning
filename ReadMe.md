@@ -35,3 +35,7 @@
     3). cmd -> cd ./opencv/build/ & setup_vars_opencv4.cmd
     4). Copy ./opencv/build/python/cv2/python-3.7/cv2.cp37-win_amd64.pyd To C:\Users\<CurrentUser>\AppData\Local\Programs\Python\Python37\Lib\site-packages
     5). cmd -> python -> import cv2 as cv Enter -> print(cv.__version__)
+## 11. Deep Learning
+    https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html
+    http://deeplearning.net/tutorial/gettingstarted.html
+    https://www.tensorflow.org/tutorials/quickstart/beginner
