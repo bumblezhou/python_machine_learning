@@ -13,10 +13,11 @@
     https://realpython.com/face-recognition-with-python/
     https://realpython.com/face-detection-in-python-using-a-webcam/
     https://github.com/shantnu/FaceDetect
-    https://pysource.com/2019/03/15/how-to-install-python-3-and-opencv-4-on-windows/
+	https://github.com/facebookresearch/detectron2
 ## 6. Install opencv
     https://opencv.org/releases/
     https://github.com/opencv/opencv/releases
+	https://pysource.com/2019/03/15/how-to-install-python-3-and-opencv-4-on-windows/
 ## 7. ID Cards text recognition
     https://blog.csdn.net/baidu_33473810/article/details/85320365
     https://www.cnblogs.com/qiandu/p/10280670.html
