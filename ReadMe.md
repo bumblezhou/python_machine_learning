@@ -39,3 +39,7 @@
     https://cs.stanford.edu/people/karpathy/convnetjs/demo/mnist.html
     http://deeplearning.net/tutorial/gettingstarted.html
     https://www.tensorflow.org/tutorials/quickstart/beginner
+## 12. Start networks2
+    python ./weight_initialization.py ./weight_initialization_30.json 30 3.0
+    python ./weight_initialization.py ./weight_initialization_50.json 50 2.5
+    python ./weight_initialization.py ./weight_initialization_100.json 100 2.5

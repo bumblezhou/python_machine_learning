@@ -9,6 +9,11 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
+            "args": [
+                "./weight_initialization_30.json",
+                "30",
+                "3.0"
+            ],
             "console": "integratedTerminal"
         }
     ]
