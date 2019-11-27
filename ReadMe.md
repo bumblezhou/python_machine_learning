@@ -43,3 +43,12 @@
     python ./weight_initialization.py ./weight_initialization_30.json 30 3.0
     python ./weight_initialization.py ./weight_initialization_50.json 50 2.5
     python ./weight_initialization.py ./weight_initialization_100.json 100 2.5
+## 13. NLP
+    https://python.ctolib.com/BrikerMan-Kashgari.html
+    https://eliyar.biz/nlp_chinese_text_classification_in_15mins/
+    https://eliyar.biz/nlp_chinese_bert_ner/
+    https://www.jianshu.com/p/1d6689851622
+    https://github.com/BrikerMan/Kashgari
+
+    https://www.cnblogs.com/wj-1314/p/9952868.html
+    https://github.com/eragonruan/text-detection-ctpn
