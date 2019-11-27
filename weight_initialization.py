@@ -20,6 +20,8 @@ import network2
 import matplotlib.pyplot as plt
 import numpy as np
 
+enpoch = 30
+
 
 def main():
     filename = sys.argv[1]
@@ -43,12 +45,12 @@ def run_network(filename, n, eta):
     net1 = network2.Network([784, n, 10], cost=network2.CrossEntropyCost)
     print("Train the network using the large starting weights.")
     net1.large_weight_initializer()
-    large_vc, large_va, large_tc, large_ta = net1.SGD(training_data, 16, 30, eta, lmbda=5.0, evaluation_data=validation_data, monitor_evaluation_accuracy=True)
+    large_vc, large_va, large_tc, large_ta = net1.SGD(training_data, enpoch, 10, eta, lmbda=5.0, evaluation_data=validation_data, monitor_evaluation_accuracy=True)
 
     training_data, validation_data, test_data = mnist_loader.load_data_wrapper()
     net2 = network2.Network([784, n, 10], cost=network2.CrossEntropyCost)
     print("Train the network using the default starting weights.")
-    default_vc, default_va, default_tc, default_ta = net2.SGD(training_data, 30, 10, eta, lmbda=5.0, evaluation_data=validation_data, monitor_evaluation_accuracy=True)
+    default_vc, default_va, default_tc, default_ta = net2.SGD(training_data, enpoch, 10, eta, lmbda=5.0, evaluation_data=validation_data, monitor_evaluation_accuracy=True)
 
     f = open(filename, "w")
     json.dump({"default_weight_initialization": [default_vc, default_va, default_tc, default_ta],
@@ -72,9 +74,9 @@ def make_plot(filename):
     large_va = [x / 100.0 for x in large_va]
     fig = plt.figure()
     ax = fig.add_subplot(111)
-    ax.plot(np.arange(0, 30, 1), large_va, color='#2A6EA6', label="Old approach to weight initialization")
-    ax.plot(np.arange(0, 30, 1), default_va, color='#FFA933', label="New approach to weight initialization")
-    ax.set_xlim([0, 30])
+    ax.plot(np.arange(0, enpoch, 1), large_va, color='#2A6EA6', label="Old approach to weight initialization")
+    ax.plot(np.arange(0, enpoch, 1), default_va, color='#FFA933', label="New approach to weight initialization")
+    ax.set_xlim([0, enpoch])
     ax.set_xlabel('Epoch')
     ax.set_ylim([85, 100])
     ax.set_title('Classification accuracy')
