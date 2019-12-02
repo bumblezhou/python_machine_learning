@@ -10,7 +10,7 @@ def main():
         print("Usage: python face_detect.py shutterstock_faces.jpg haarcascade_frontalface_default.xml")
         return 0
 
-    # pass in the image and cascade names as command-line arguments. 
+    # pass in the image and cascade names as command-line arguments.
     img_path = sys.argv[1]
     casc_path = sys.argv[2]
 
